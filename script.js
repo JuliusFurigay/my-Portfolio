@@ -107,5 +107,5 @@ sr.reveal('.homeTitle span:nth-child(9)', {origin: 'top', opacity: 1, delay: 100
 
 sr.reveal('.homeSocial, .aboutData, .projectContainer', {origin: 'left'})
 sr.reveal('.aboutImg, .skillsContainer', {origin: 'right'})
-
+sr.reveal('.homeImg', {origin: 'bottom', distance: '150px'})
 

@@ -457,5 +457,21 @@
     <script src="scrollreveal_master_dist_scrollreveal.min.js"></script>
     <script src="swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 700, function(){
+                window.location.hash = hash;
+              });
+            }
+          });
+        });
+        </script>
 </body>
 </html>

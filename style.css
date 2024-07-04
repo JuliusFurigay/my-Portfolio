@@ -410,7 +410,6 @@ img{
     font-size: 0.78rem;
 }
 .footer{
-    position: relative;
     background-color: var(--container-color);
     positon: fixed;
     height: 800;

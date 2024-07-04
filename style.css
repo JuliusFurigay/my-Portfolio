@@ -93,6 +93,9 @@ img{
 }
 .main{
     overflow: hidden;
+    position: relative;
+    height: 800px;
+    clipPath:"polygon(0% 0, 100% 0, 0% 100, 0 50%)";
 }
 
 .header{
@@ -407,7 +410,12 @@ img{
     font-size: 0.78rem;
 }
 .footer{
+    position: relative;
     background-color: var(--container-color);
+    positon: fixed;
+    height: 800;
+    width: full;
+    bottom: 0;
 }
 .footerContainer{
     padding-block: 3rem 2rem;

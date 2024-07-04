@@ -92,6 +92,7 @@ img{
     margin-bottom: 1.5rem;
 }
 .boodey{
+    z-index: 2;
     position: relative;
     height: 800px;
     clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
@@ -416,6 +417,7 @@ img{
     height: 800px;
     width: 100%;
     bottom: 0px;
+    z-index: 1;
 }
 .footerContainer{
     padding-block: 3rem 2rem;

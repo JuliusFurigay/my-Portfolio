@@ -91,15 +91,10 @@ img{
     text-align: center;
     margin-bottom: 1.5rem;
 }
-.boodey{
-    z-index: 2;
-    position: relative;
-    height: 800px;
-    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
-}    
-.main {
+.main{
     overflow: hidden;
 }
+
 .header{
     position: fixed;
     width: 100%;
@@ -185,7 +180,7 @@ img{
     width: 280px;
 }
 .homeTitle{
-    font-size: 55px;
+    font-size: 50rem;
     display: flex;
     column-gap: .10rem;
     color: var(--main-color);
@@ -194,7 +189,7 @@ img{
     justify-self: center;
 }
 .homeTitle .point{
-    color: var(--text-color);
+    color: #008bff;
 }
 .homeTitle span:nth-child(1){
     z-index: -1;
@@ -411,13 +406,8 @@ img{
 .skillLevel{
     font-size: 0.78rem;
 }
-.footer {
+.footer{
     background-color: var(--container-color);
-    position: fixed;
-    height: 800px;
-    width: 100%;
-    bottom: 0px;
-    z-index: 1;
 }
 .footerContainer{
     padding-block: 3rem 2rem;
@@ -800,4 +790,5 @@ img{
     .navList .navItem:nth-child(5) span{
         color: var(--text-color);
     }
+    
 }

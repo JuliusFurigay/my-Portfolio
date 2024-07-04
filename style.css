@@ -91,12 +91,14 @@ img{
     text-align: center;
     margin-bottom: 1.5rem;
 }
-.main{
+.boodey{
     position: relative;
     height: 800px;
     clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
+}    
+.main {
+    overflow: hidden;
 }
-
 .header{
     position: fixed;
     width: 100%;

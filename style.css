@@ -92,7 +92,6 @@ img{
     margin-bottom: 1.5rem;
 }
 .main{
-    overflow: hidden;
     position: relative;
     height: 800px;
     clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
@@ -409,12 +408,12 @@ img{
 .skillLevel{
     font-size: 0.78rem;
 }
-.footer{
+.footer {
     background-color: var(--container-color);
-    positon: fixed;
-    height: 800;
-    width: full;
-    bottom: 0;
+    position: fixed;
+    height: 800px;
+    width: 100%;
+    bottom: 0px;
 }
 .footerContainer{
     padding-block: 3rem 2rem;
